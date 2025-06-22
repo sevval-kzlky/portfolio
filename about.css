@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About | Şevval Kızılkaya</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Şevval Kızılkaya</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="about-section">
+    <h1 class="section-title">About Me</h1>
+    <div class="about-content">
+      <img src="your-photo.jpg" alt="Şevval Kızılkaya" class="profile-photo" />
+      <div class="about-text">
+        <p>
+          Hi! I’m <strong>Şevval Kızılkaya</strong>, a data scientist and machine learning enthusiast.
+          I specialize in data analysis, predictive modeling, and visualization.
+        </p>
+        <p>
+          I enjoy turning complex data into actionable insights and building practical solutions.
+          Constant learning keeps me motivated.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Şevval Kızılkaya | All rights reserved.</p>
+  </footer>
+</body>
+</html>
+/* ... diğer stiller aynı ... */
+
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.7);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.profile-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 123, 255, 1);
+}
+
+/* ... diğer stiller aynı ... */
+
+@
+
+
