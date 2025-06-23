@@ -195,6 +195,149 @@ footer {
     height: 100px;
   }
 }
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+}
 
+.btn {
+  padding: 12px 24px;
+  border: none;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.github-btn {
+  background-color: #171515;
+  color: #fff;
+  border: 2px solid #333;
+}
+
+.github-btn:hover {
+  background-color: #333;
+}
+
+.linkedin-btn {
+  background-color: #0077b5;
+  color: #fff;
+  border: 2px solid #0077b5;
+}
+
+.linkedin-btn:hover {
+  background-color: #005f91;
+}
+.social-section {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.social-section h2 {
+  font-size: 1.8em;
+  color: #58a6ff;
+  margin-bottom: 20px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 26px;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* GitHub butonu */
+.github-btn {
+  background-color: #171515;
+  color: #fff;
+  border: 2px solid #444;
+}
+
+.github-btn:hover {
+  background-color: #2e2e2e;
+}
+
+/* LinkedIn butonu */
+.linkedin-btn {
+  background-color: #0077b5;
+  color: white;
+  border: 2px solid #0077b5;
+}
+
+.linkedin-btn:hover {
+  background-color: #005f91;
+}
+.floating-socials {
+  position: fixed;
+  top: 100px; /* sayfanın tepe kısmından mesafe */
+  left: 15px; /* sola yaslı */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  z-index: 1000;
+}
+
+.floating-socials a {
+  text-decoration: none;
+}
+
+.floating-socials a i {
+  font-size: 20px;
+  color: #fff;
+  background-color: #222;
+  padding: 12px;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.floating-socials a i:hover {
+  background-color: #444;
+  color: #1da1f2;
+  transform: scale(1.15);
+}
+.fixed-social-icons {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 1000;
+}
+
+.fixed-social-icons a {
+  color: rgb(59, 57, 61); /* veya istediğin renk */
+  text-decoration: none;
+  font-size: 28px;
+  transition: color 0.3s ease;
+}
+
+.fixed-social-icons a:hover {
+  color: #0A66C2; /* LinkedIn mavisi veya istediğin renk */
+}
+.floating-socials {
+  display: none !important;
+}
 
 
